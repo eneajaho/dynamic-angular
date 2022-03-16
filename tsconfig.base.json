@@ -14,7 +14,10 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@dynamica/shared/ui/layout": ["libs/shared/ui/layout/src/index.ts"],
+      "@dynamica/config": ["libs/config/index.ts"],
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }

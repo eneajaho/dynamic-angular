@@ -1,0 +1,86 @@
+{
+  "routes": [
+    {
+      "path": "/videos",
+      "data": {
+        "title": "Videos",
+        "blocks": [
+          {
+            "type": "header-menu",
+            "data": {
+              "links": [
+                {
+                  "url": "/home",
+                  "title": "Home"
+                },
+                {
+                  "url": "/videos",
+                  "title": "Videos"
+                },
+                {
+                  "url": "/login",
+                  "title": "Login"
+                }
+              ]
+            }
+          },
+          {
+            "type": "gallery",
+            "data": {
+              "items": [
+                {
+                  "id": "34k5hjk5g34jhk5",
+                  "previewImageUrl": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/dog-puppy-on-garden-royalty-free-image-1586966191.jpg",
+                  "title": "Nice dog"
+                },
+                {
+                  "id": "34543534",
+                  "previewImageUrl": "https://media.npr.org/assets/img/2017/04/25/istock-115796521_wide-2f8afeb04be5bf8290f13dd1a5a9e107f63ee2fd.jpg?s=1400",
+                  "title": "Nice squirrel"
+                },
+                {
+                  "id": "34k5hjk5g34dfdsfjhk5",
+                  "previewImageUrl": "https://icatcare.org/app/uploads/2018/07/Thinking-of-getting-a-cat.png",
+                  "title": "Nice cat"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "path": "/login",
+      "data": {
+        "title": "Login",
+        "blocks": [
+          {
+            "type": "header-menu",
+            "data": {
+              "links": [
+                {
+                  "url": "/home",
+                  "title": "Home"
+                },
+                {
+                  "url": "/videos",
+                  "title": "Videos"
+                },
+                {
+                  "url": "/login",
+                  "title": "Login"
+                }
+              ]
+            }
+          },
+          {
+            "type": "login-form",
+            "data": {
+              "authApi": "https://example.com"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

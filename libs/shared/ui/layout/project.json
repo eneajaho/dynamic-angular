@@ -1,0 +1,26 @@
+{
+  "projectType": "library",
+  "root": "libs/shared/ui/layout",
+  "sourceRoot": "libs/shared/ui/layout/src",
+  "prefix": "dyn",
+  "targets": {
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/shared/ui/layout"],
+      "options": {
+        "jestConfig": "libs/shared/ui/layout/jest.config.js",
+        "passWithNoTests": true
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": [
+          "libs/shared/ui/layout/src/**/*.ts",
+          "libs/shared/ui/layout/src/**/*.html"
+        ]
+      }
+    }
+  },
+  "tags": []
+}

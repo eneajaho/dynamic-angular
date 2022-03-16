@@ -2,6 +2,7 @@
   "version": 2,
   "projects": {
     "loader": "apps/loader",
-    "loader-e2e": "apps/loader-e2e"
+    "loader-e2e": "apps/loader-e2e",
+    "shared-ui-layout": "libs/shared/ui/layout"
   }
 }
