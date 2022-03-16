@@ -1,0 +1,7 @@
+{
+  "version": 2,
+  "projects": {
+    "loader": "apps/loader",
+    "loader-e2e": "apps/loader-e2e"
+  }
+}
